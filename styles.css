@@ -1,0 +1,202 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center; /* center everything horizontally */
+    align-items: center;     /* align links and search box vertically */
+    gap: 30px;               /* space between links and search box */
+}
+
+.navbar-container a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+header {
+    background-color: #34db63;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 30px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 200px;
+    transition: width 0.3s ease;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px 10px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #333;
+}
+
+.search-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #34db63;
+    font-size: 18px;
+    padding: 5px;
+    transition: color 0.2s;
+}
+
+.search-box button:hover {
+    color: #28a745;
+}
+
+.search-box:focus-within {
+    width: 260px; /* expands on focus */
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*
+{
+    box-sizing: border-box;
+  }
+ */
+
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  h2{
+    color: rgb(64, 61, 61);
+  }
+
+  h4{
+    color: rgb(115, 192, 98);
+  }
+  p{
+color: #8b8787;
+  }
+  /*
+  .row {
+    margin: 10px -16px;
+  }
+  */
+  /* Add padding BETWEEN each column */
+  /*
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  */
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+
+  input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background-color: #ebedec;
+  }
+  
+  input[type=text]:focus {
+    width: 17%;
+  }
+
+
+
+
+  #video-container {
+    float: right; /* Adjust the float property to place the video on the right */
+    max-width: calc(33.333% - 40px); /* 33.333% of the container width, adjust as needed */
+    margin-left: 40px; /* Adjust the margin as needed */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+

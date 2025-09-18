@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Pet Care & Adoption</title>
+</head>
+<body>
+    <header>
+        <h1>Pet Care & Adoption</h1>
+        <nav>
+  <div class="navbar-container">
+    <a href="#Home">Home</a>
+    <a href="#adopt">Adopt a Pet</a>
+    <a href="#tips">Pet Care Tips</a>
+    <a href="#Community">Community</a>
+    <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <button type="submit"><i class="bi bi-search"></i></button>
+    </div>
+  </div>
+</nav>
+
+    </header>
+
+
+    
+<div class="container">
+    <section class="main-content" id="Home">
+        <h2>Welcome to our Pet Care & Adoption Platform</h2>
+        <p>Welcome to our non-profit pet care and adoption platform—a space dedicated to connecting caring individuals with pets in need. Discover valuable tips on responsible pet care and ownership, and browse our database of adoptable animals. We're here to facilitate meaningful connections, making a positive impact one adoption at a time, with the sole objective of promoting animal welfare, not to gain money.</p>
+        <hr>
+    </section>
+
+    <section class="adopt-a-pet" id="adopt">
+        <h2>Available Pets for Adoption:</h2>
+        <!-- Your pet adoption content can go here -->
+    </section>
+
+    <section class="main">
+
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('Cats')"> Cats </button>
+            <button class="btn" onclick="filterSelection('Dogs')"> Dogs </button>
+            <button class="btn" onclick="filterSelection('Others')"> Others </button>
+        </div>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+
+
+
+<div class="column Cats col-md-4">
+    <div class="content">
+        <img src="Images/3pexels-photo-4790612.jpeg" alt="Luna" style="width:100%">
+        <h4>Luna</h4>
+        <p>Luna is an elegant and mysterious cat with striking yellow eyes. She enjoys lounging in sunlit windowsills and is known for her graceful demeanor. Luna is the perfect companion for quiet evenings.</p>
+    </div>
+</div>
+
+<div class="column Dogs col-md-4">
+    <div class="content">
+        <img src="Images/6free-photo-of-border-collie-dog.jpeg" alt="Rocky" style="width:100%">
+        <h4>Rocky</h4>
+        <p>Rocky is a strong and courageous dog with a heart of gold. Whether it's fetching a ball or keeping watch over the house, Rocky is up for the task. His playful spirit and protective nature make him a wonderful addition to any home.</p>
+    </div>
+</div>
+
+<div class="column Dogs col-md-4">
+    <div class="content">
+        <img src="Images/5pexels-photo-7483187.jpeg" alt="Sadie" style="width:100%">
+        <h4>Sadie</h4>
+        <p>Meet Sadie, a gentle and sweet-natured dog with expressive eyes. Sadie loves cuddling on the couch and is known for her unwavering loyalty. She's a true companion for anyone seeking a loving and devoted friend.</p>
+    </div>
+</div>
+
+<div class="column Cats col-md-4">
+    <div class="content">
+        <img src="Images/1pexels-photo-3652805.webp" alt="Whiskers" style="width:100%">
+        <h4>Whiskers</h4>
+        <p>Meet Whiskers, the charming and playful cat with fluffy whiskers. Whiskers loves to curl up in cozy spots and is always up for a game of chase with a feather toy.</p>
+    </div>
+</div>
+
+<div class="column Others col-md-4">
+    <div class="content">
+        <img src="Images/7free-photo-of-macaw-parrot-in-cage.jpeg" alt="Rio" style="width:100%">
+        <h4>Rio</h4>
+        <p>Meet Rio, the vibrant and talkative parrot with feathers as colorful as a tropical sunset. Rio loves to mimic sounds and show off his impressive vocabulary. With a personality as lively as his plumage, Rio is sure to bring joy and laughter to your home.</p>
+    </div>
+</div>
+
+<div class="column Cats col-md-4">
+    <div class="content">
+        <img src="Images/2pexels-photo-2361952.jpeg" alt="Mittens" style="width:100%">
+        <h4>Mittens</h4>
+        <p>Say hello to Mittens! He is a fun-loving and affectionate cat. Mittens is quick to purr and loves to be the center of attention, making him an adorable addition to any family. His playful antics are sure to bring joy to your home.</p>
+    </div>
+</div>
+
+<div class="column Dogs col-md-4">
+    <div class="content">
+        <img src="Images/4pexels-photo-7752793.webp" alt="Buddy" style="width:100%">
+        <h4>Buddy</h4>
+        <p>Buddy is an energetic and loyal dog who is always ready for an adventure. With a wagging tail and a heart full of love, Buddy is the perfect playmate for outdoor activities and long walks in the park.</p>
+    </div>
+</div>
+
+<div class="column Others col-md-4">
+    <div class="content">
+        <img src="Images/8free-photo-of-rabbit-sitting-in-sunlight.jpeg" alt="Bunnykins" style="width:100%">
+        <h4>Bunnykins</h4>
+        <p>Bunnykins is a fluffy and gentle rabbit with the softest fur you've ever touched. This adorable bunny enjoys hopping around the garden and nibbling on fresh greens. Bunnykins is the epitome of cuteness and is ready to charm you with those expressive eyes.</p>
+    </div>
+</div>
+
+<div class="column Others col-md-4">
+    <div class="content">
+        <img src="Images/9istockphoto-184337772-612x612hs.avif" alt="Nibbles" style="width:100%">
+        <h4>Nibbles</h4>
+        <p>Say hello to Nibbles, the tiny bundle of energy in the form of a hamster. Nibbles is a curious and playful companion who loves running on his wheel and exploring his cozy little habitat. With cheeks full of joy, Nibbles is the perfect pint-sized friend for anyone seeking a pocket-sized pal.</p>
+    </div>
+</div>
+
+
+  
+
+
+            <!-- Add more portfolio items as needed -->
+        </div>
+    </section>
+
+
+
+
+
+
+    <script>
+        filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("column");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
+
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+    </script>
+
+
+
+
+
+<section class="pet-care-tips" id="tips">
+    <hr>
+    <h2>Pet Care Tips</h2>
+    <div class="tips">
+
+
+
+
+
+        <h4>1- Regular Veterinary Care:</h4>
+        <p>  Schedule regular check-ups with a veterinarian to ensure your pet is in good health. Vaccinations, parasite prevention,<br> and dental care are crucial components of veterinary care.</p>
+        
+
+        <div id="video-container">
+            <video autoplay muted loop playsinline>
+            <source src="Videos/pexels-cottonbro-6853911 (Original).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+
+        </div>
+
+
+        <h4>2- Balanced Nutrition:</h4>
+        <p>  Provide a well-balanced and species-appropriate diet for your pet. Consult with your veterinarian to determine the right type and amount of food based on your pet's age, size, and health condition.</p>
+        
+        <h4>3- Hydration:</h4>
+        <p>  Always ensure that your pet has access to fresh and clean water. Proper hydration is essential for their overall well-being.
+        
+        <h4>4- Exercise and Mental Stimulation:</h4>
+        <p>  Pets need both physical exercise and mental stimulation. Playtime, walks, and interactive toys can help keep them physically and mentally active.
+        
+        <h4>5- Grooming:</h4>
+        <p>  Regular grooming is essential for many pets. Brush your pet's fur, trim nails, and clean ears as needed. This helps prevent matting, reduces shedding, and maintains overall cleanliness.</p>
+    
+        <h4>6- Safe and Comfortable Environment:</h4>
+        <p>  Create a safe and comfortable living environment for your pet. Remove potential hazards, provide a comfortable bed or shelter, and ensure that the temperature is suitable for your pet's species.</p>
+        
+        <h4>7- Training and Socialization:</h4>
+        <p>  Invest time in training and socializing your pet, starting from a young age. This helps in building a strong bond and ensures that your pet behaves well in different situations.</p>
+        
+        <h4>8- Identification:</h4>
+        <p>  Ensure your pet has proper identification, such as a collar with an ID tag and a microchip. This is crucial in case your pet gets lost.</p>
+        
+        <h4>9- Respect Their Preferences:</h4>
+        <p>  Learn about your pet's preferences and respect their boundaries. Provide a designated space where they can retreat when they need some quiet time.</p>
+        
+        <h4>10- Regular Attention and Affection:</h4>
+        <p>  Pets thrive on attention and affection. Spend quality time with your pet, offering cuddles, playtime, and positive interactions.</p>
+<br>
+<hr>
+<br>
+<br>
+
+    </div>
+
+
+
+    <!-- Add more tips as needed -->
+
+</section>
+</div>
+
+
+<footer id="Community">
+    <p>&copy; 2023 Pet Care & Adoption</p>
+    <ul>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</footer>
+
+
+
+</body>
+</html>
+
